@@ -8,7 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController:
+
+    //Add new comment
+
+UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
