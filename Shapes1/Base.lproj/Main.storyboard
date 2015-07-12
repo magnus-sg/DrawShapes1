@@ -78,7 +78,7 @@
                         <viewControllerLayoutGuide type="top" id="o8J-v4-j9A"/>
                         <viewControllerLayoutGuide type="bottom" id="hhv-zE-AwT"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="dE7-qJ-cGO">
+                    <view key="view" contentMode="scaleToFill" id="dE7-qJ-cGO" customClass="DrawRectangle" customModule="Shapes1" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -266,6 +266,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="FYj-eZ-eo4"/>
+        <segue reference="BSK-6m-1kJ"/>
     </inferredMetricsTieBreakers>
 </document>

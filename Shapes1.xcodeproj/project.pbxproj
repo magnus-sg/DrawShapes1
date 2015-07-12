@@ -13,6 +13,7 @@
 		586388AE1B51006E000BFB84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586388AD1B51006E000BFB84 /* Images.xcassets */; };
 		586388B11B51006E000BFB84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586388AF1B51006E000BFB84 /* LaunchScreen.xib */; };
 		586388BD1B51006E000BFB84 /* Shapes1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586388BC1B51006E000BFB84 /* Shapes1Tests.swift */; };
+		58DAEA591B520A6D00F1A664 /* DrawRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAEA581B520A6D00F1A664 /* DrawRectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		586388B61B51006E000BFB84 /* Shapes1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shapes1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		586388BB1B51006E000BFB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		586388BC1B51006E000BFB84 /* Shapes1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes1Tests.swift; sourceTree = "<group>"; };
+		58DAEA581B520A6D00F1A664 /* DrawRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawRectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				586388AD1B51006E000BFB84 /* Images.xcassets */,
 				586388AF1B51006E000BFB84 /* LaunchScreen.xib */,
 				586388A41B51006E000BFB84 /* Supporting Files */,
+				58DAEA581B520A6D00F1A664 /* DrawRectangle.swift */,
 			);
 			path = Shapes1;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				586388A91B51006E000BFB84 /* ViewController.swift in Sources */,
 				586388A71B51006E000BFB84 /* AppDelegate.swift in Sources */,
+				58DAEA591B520A6D00F1A664 /* DrawRectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				586388C21B51006E000BFB84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		586388C31B51006E000BFB84 /* Build configuration list for PBXNativeTarget "Shapes1Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				586388C51B51006E000BFB84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
